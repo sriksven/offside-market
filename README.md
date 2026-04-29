@@ -8,6 +8,23 @@ ML-powered engine that finds where prediction markets are mispricing teams in th
 
 > **Project status & docs map:** see [`docs/STATUS.md`](docs/STATUS.md) for what's done and what's next, plus the rest of [`docs/`](docs/) (`INFRASTRUCTURE.md`, `FLOW.md`, `FILE_INDEX.md`, `COMPLETED.md`) for deeper internals.
 
+## Live Links
+
+- **Zerve notebook:** https://www.zerve.ai/gallery/1eac46ea-ccef-4e73-9423-3dfee21f87f1
+- **Live app:** https://offside-market.hub.zerve.cloud
+- **Demo video:** https://youtu.be/mJN8t2EueyM
+
+## Key Findings
+
+| Team | Market | Model | Delta | Signal |
+|---|---|---|---|---|
+| France | 16.3% | 7.8% | -8.5pts | OVERVALUED |
+| England | 11.0% | 3.5% | -7.5pts | OVERVALUED |
+| Brazil | 8.5% | 3.5% | -4.9pts | OVERVALUED |
+| Japan | 2.1% | 6.3% | +4.1pts | UNDERVALUED |
+| South Korea | 0.3% | 3.5% | +3.2pts | UNDERVALUED |
+| Morocco | 1.5% | 4.5% | +2.9pts | UNDERVALUED |
+
 ## What it does
 
 - Builds team strength ratings from ~5 years of international match data (xG, goals, competition-weighted, recency-decayed).

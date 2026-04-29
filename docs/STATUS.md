@@ -7,7 +7,7 @@
 > `FLOW.md` (data + execution flow), `FILE_INDEX.md` (per-file map),
 > `COMPLETED.md` (detailed completion + known limitations).
 
-Last updated: **2026-04-27**
+Last updated: **2026-04-28**
 
 ---
 
@@ -27,10 +27,10 @@ Last updated: **2026-04-27**
 | Dash app (5 views)        | DONE (local)  | `app/dashboard.py`, smoke-tested on `:8050`                      |
 | Test suite                | DONE          | `tests/`, 31 passing in 0.6s                                     |
 | Notebook                  | DONE          | `notebooks/analysis.ipynb`, executes end-to-end                  |
-| **Zerve deployment**      | NOT DONE      | Phase 10 — needs publishing + URL captured below                 |
-| **FastAPI prod deploy**   | NOT DONE      | Phase 8 — needs Zerve API block + endpoint URL                   |
-| **Dash prod deploy**      | NOT DONE      | Phase 9 — needs Zerve App Builder + public URL                   |
-| **Demo video**            | NOT DONE      | Phase 11 — 3 min, structure in implementation guide              |
+| **Zerve notebook**        | DONE          | https://www.zerve.ai/gallery/1eac46ea-ccef-4e73-9423-3dfee21f87f1 |
+| **Dash app (Zerve)**      | DONE          | https://offside-market.hub.zerve.cloud                            |
+| **FastAPI prod deploy**   | NOT DONE      | Phase 8 — optional separate Zerve API block + public URL         |
+| **Demo video**            | DONE          | https://youtu.be/mJN8t2EueyM                                     |
 | **Devpost write-up**      | NOT DONE      | Phase 11 — 300-word summary + URLs                               |
 | **Social post**           | NOT DONE      | Phase 11 — LinkedIn or X, tag @Zerve_AI                          |
 
@@ -75,23 +75,22 @@ Maps each numbered phase from the implementation guide to the file(s) that prove
 - [x] `api/models.py` — Pydantic schemas
 - [ ] **Deploy on Zerve and capture the public URL here:** `<paste URL when shipped>`
 
-### Phase 9 — Dash app — DONE (local) / NOT DEPLOYED
+### Phase 9 — Dash app — DONE (Zerve deployed)
 - [x] `app/dashboard.py` — five tabs: Match Predictor / Mispricing / Bracket / Calibration / Arbitrage
 - [x] `app/assets/styles.css` — dark-mode-aware, responsive
-- [ ] **Deploy on Zerve App Builder, capture URL:** `<paste URL when shipped>`
+- [x] **Zerve App Builder —** https://offside-market.hub.zerve.cloud
 - [ ] Verify on mobile (375px) and desktop (1440px)
 
-### Phase 10 — Zerve notebook — DONE (local) / NOT PUBLISHED
+### Phase 10 — Zerve notebook — DONE (published)
 - [x] `notebooks/analysis.ipynb` — 10 sections, executes top-to-bottom
-- [ ] **Publish to Zerve, capture public URL:** `<paste URL when shipped>`
-- [ ] Test the URL in an incognito window
+- [x] **Public gallery URL:** https://www.zerve.ai/gallery/1eac46ea-ccef-4e73-9423-3dfee21f87f1
 
-### Phase 11 — Submission — NOT DONE
-- [ ] Public Zerve project URL captured (Phase 10)
-- [ ] FastAPI URL captured (Phase 8)
-- [ ] Dash URL captured (Phase 9)
+### Phase 11 — Submission — IN PROGRESS
+- [x] Public Zerve notebook URL (Phase 10)
+- [ ] FastAPI public deploy URL (Phase 8 — optional)
+- [x] Dash app URL on Zerve (Phase 9): https://offside-market.hub.zerve.cloud
 - [ ] Project summary (≤ 300 words) — write here or link
-- [ ] Demo video (3 min, structure in implementation guide section "Demo video structure")
+- [x] Demo video: https://youtu.be/mJN8t2EueyM
 - [ ] Posted on LinkedIn or X tagging @Zerve_AI
 - [ ] Devpost write-up filled
 
