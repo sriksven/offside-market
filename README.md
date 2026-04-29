@@ -6,8 +6,6 @@ ML-powered engine that finds where prediction markets are mispricing teams in th
 
 [![tests](https://img.shields.io/badge/tests-31%2F31%20passing-22c55e)](tests/) [![pipeline](https://img.shields.io/badge/pipeline-end--to--end-6d28d9)](pipeline/) [![hackathon](https://img.shields.io/badge/Zerve_AI-Hackathon_2026-3b82f6)](https://zerve.ai)
 
-> **Maintainer docs:** a full status tracker, infrastructure notes, and file index live in the `docs/` directory locally (`docs/` is gitignored and not pushed to GitHub).
-
 ## Live Links
 
 - **Zerve notebook:** https://www.zerve.ai/gallery/1eac46ea-ccef-4e73-9423-3dfee21f87f1
